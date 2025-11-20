@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: \
+    username: \
+    password: \
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate.jdbc.lob.non_contextual_creation: true
+      hibernate.show_sql: false
+      hibernate.format_sql: true
+server:
+  port: 8080
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
